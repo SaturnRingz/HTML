@@ -1,0 +1,31 @@
+/* Fondo */
+body {
+    background-image: url('img/background.gif');
+    background-repeat: no-repeat;
+    background-size: 1920px;
+}
+/* Caja del loger */
+#FargoLogger {
+    border-radius: 90px;
+    margin-top: 65px;
+    margin-left: 250px;
+    background-color:rgb(26, 3, 26);
+    opacity: 0.95;
+    width: 1310px;
+    height: 700px;
+    padding: 50px;
+}
+/* Campos del log tray */
+#FargoLogTray input {
+    padding: 5px;
+    margin-left: 35px;
+    margin-top: 25px;
+    width: 450px;
+    border-radius: 5px;
+
+}
+/* Texto de registro */
+#RegisterOption {
+    color: white;
+    margin-left: 35px;
+}

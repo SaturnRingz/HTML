@@ -1,0 +1,25 @@
+* {
+    background: papayawhip
+}
+
+
+/* body {
+    background-color:blueviolet;
+} */
+
+div {
+    background: yellow;
+}
+
+.titulo {
+    color: green;
+}
+
+#parrafote {
+    background: black;
+    color: white;
+}
+
+a[href="https://www.youtube.com/watch?v=keceiJCO_vM"] {
+    color: #61173c;
+}
