@@ -22,10 +22,32 @@ body {
     margin-top: 25px;
     width: 450px;
     border-radius: 5px;
+    background:rgba(54, 3, 54, 0.541);
+    border-color: purple;
+    border-style: groove;
 
 }
+::placeholder{
+    color: pink;
+    font-family: sans-serif;
+    font-style:italic;
+}
 /* Texto de registro */
-#RegisterOption {
+#RegisterOption::before{
+    content: "";
+}
+RegisterTray a [href=""]{
     color: white;
+}
+#RegisterOption {
+    font-family: sans-serif;
+    color: pink;
     margin-left: 35px;
+    margin-top: 10px;;
+}
+
+/* IconRandomizer */
+#IconRandomizer{
+    margin-left: 150px;
+    height: 300px;
 }
