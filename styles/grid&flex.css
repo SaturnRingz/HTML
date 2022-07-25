@@ -1,0 +1,56 @@
+.flexcontainer{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    background: papayawhip;
+    justify-content: center;
+    height: 450px;
+    /* align-items: center; */
+    flex-direction: column
+}
+
+.flexitem {
+    width: 50px;
+    height: 50px;
+    background: purple;
+}
+
+.flexcontainer .flexitem:nth-child(2n + 1){
+    background: yellow;
+}
+
+.gridcontainer{
+    border-style: solid;
+    border-color: black;
+    margin-top: 3px;
+    display:grid;
+    height: 450px;
+    width: 450px;
+    background: whitesmoke;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Por qué 1fr 1f... y no 4fr? Investigar */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.griditem {
+    background: yellow;
+}
+
+.gridcontainer .griditem:nth-child(1){ /* por qué el 1/2, 2/3...? Ivestigar */
+    grid-column: 1/2;
+}
+.gridcontainer .griditem:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.gridcontainer .griditem:nth-child(3){
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.gridcontainer .griditem:nth-child(4){
+    grid-column: 4/4;
+    grid-row: 4/4;
+}
+
+.gridcontainer .griditem:nth-child(2n + 1) /* Investigar nth-child */{
+    background: blue;
+}
