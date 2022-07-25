@@ -6,13 +6,14 @@ body {
 }
 /* Caja del loger */
 #FargoLogger {
+    display:flex;
     border-radius: 90px;
     margin-top: 65px;
     margin-left: 250px;
     background-color:rgb(26, 3, 26);
     opacity: 0.95;
-    width: 1310px;
-    height: 700px;
+    width: 1280px;
+    height: 720px;
     padding: 50px;
 }
 /* Campos del log tray */
@@ -50,4 +51,22 @@ RegisterTray a [href=""]{
 #IconRandomizer{
     margin-left: 150px;
     height: 300px;
+}
+
+#OtherSignUps {
+    margin-left: 35px;
+}
+
+#OtherSignUps > button {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: pink;
+    margin-right: 10px;
+}
+
+#OtherSignUps > button > img {
+    width: 40px;
+    height: 40px;
 }
