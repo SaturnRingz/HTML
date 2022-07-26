@@ -1,0 +1,59 @@
+body{
+    background: rgb(88, 24, 69);
+}
+#card{
+    width:400px;
+    height:620px;
+    background:rgb(144, 12, 63);
+    border-radius:15px;
+    overflow: hidden;
+    position: absolute;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.landscape {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    left:0;
+}
+
+#profile-picture{
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+}
+
+.profile-image{
+    border-radius: 90px;
+}
+
+.profile-description{
+    height: 60px;
+    width: 500px;
+    top: 260px;
+    position: relative;
+    font-family: sans-serif;
+    color: #FF5733;
+}
+
+.Username{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 1px;
+    justify-content: center;
+    font-size: 20px;
+}
+.Occupation{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    font-size: 13px;
+}
