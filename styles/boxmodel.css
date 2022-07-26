@@ -1,0 +1,33 @@
+.margin {
+    height: 300px;
+    width: 700px;
+    background: rgb(230, 118, 77);
+    text-align: center;
+}
+
+.border {
+    height: 250px;
+    width: 650px;
+    background: rgb(230, 227, 77);
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+.padding {
+    height: 200px;
+    width: 600px;
+    background: rgb(100, 194, 64);
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+.content {
+    display: flex;
+    height: 150px;
+    width: 550px;
+    background: rgb(59, 127, 190);
+    margin-left: 24px;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+}
