@@ -1,0 +1,35 @@
+.container{
+    width:200px;
+    height:200px;
+    background: red;
+    position: relative;
+    top:20px;
+}
+
+.item{
+    width:50px;
+    height:50px;
+    background: blue;
+    /* position: relative; */
+}
+
+.subitem{
+    width:20px;
+    height:20px;
+    background: yellow;
+    position:absolute; /* su posición se encapsula en los límites del último elemento con posición relativa*/
+    right:0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: peachpuff;
+    position: fixed; /* fija el contenido en la pantalla */
+    top: 0;
+}
+
+ul p {
+    position: sticky; /* 'pega' el contenido al hacer scroll, en lugar de quitarlo directamente */
+    top: 0;
+}
