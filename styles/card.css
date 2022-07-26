@@ -8,6 +8,7 @@ body{
     border-radius:20px;
     overflow: hidden;
     position: absolute;
+    box-shadow: 5px 5px 8px;
 }
 
 section {
