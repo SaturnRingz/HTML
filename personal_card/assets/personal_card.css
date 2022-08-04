@@ -1,0 +1,74 @@
+:root{
+    --very-dark-color: #46244C;
+    --dark-color: #712B75;
+    --light-color: #C74B50;
+    --very-light-color: #D49B54;
+    font-family: 'Nunito', sans-serif;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+body{
+    var(--font);
+    display: grid;
+    margin:0;
+    background: var(--very-dark-color);
+    place-items: center;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 730px;
+    height: 410px;
+    background: var(--light-color);
+    border-radius: 20px;
+    box-shadow: 5px 4px 0px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.profile-name{
+    font-size: 35px;
+    margin: 5px 0 0 10px;
+}
+
+.profile-description p{
+    margin: 15px 0 0 10px;
+}
+
+.profile-description:nth-child(1){
+    text-align: justify;
+}
+
+.hyperlinks{
+    display: grid;
+    width: 100%;
+}
+
+.hyperlinks a{
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top:8px;
+    color: var(--very-light-color);
+    text-decoration: none;
+    border: 2px solid var(--very-light-color);
+}
+
+.hyperlinks a:nth-child(1){
+    padding: 0 45% 0 45%;
+}
+
+.hyperlinks a:nth-child(2){
+    padding: 0 48% 0 44.5%;
+}
+
+.hyperlinks a:last-child{
+    padding: 0 50% 0 51%;
+}
+
